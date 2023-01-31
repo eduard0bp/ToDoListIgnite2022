@@ -1,0 +1,85 @@
+.tasks-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 46rem;
+  height: 17.938;
+
+  margin: 4rem auto;
+
+  // border: 1px solid red;
+
+  .tasks-infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 1.5rem;
+
+    border-bottom: 1px solid var(--gray-300);
+
+    width: 46rem;
+
+    .created-tasks {
+      p {
+        color: var(--blue);
+        font-weight: 700;
+        font-size: 0.875rem;
+      }
+
+      span {
+        background: var(--gray-400);
+        color: var(--gray-200)
+        ;
+        padding: 2px 8px;
+
+        border-radius: 999px;
+
+        font-weight: 700;
+        font-size: 0.75rem;
+      }
+    }
+
+    .done-tasks {
+      p {
+        color: var(--purple);
+        font-weight: 700;
+        font-size: 0.875rem;
+      }
+
+      span {
+        background: var(--gray-400);
+        color: var(--gray-200)
+        ;
+        padding: 2px 8px;
+
+        border-radius: 999px;
+
+        font-weight: 700;
+        font-size: 0.75rem;
+      }
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+    }
+  }
+
+  .tasks-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 4rem;
+    color: var(--gray-300);
+    
+    .clip-icon {
+      margin-bottom: 1rem;
+    }
+  }
+}

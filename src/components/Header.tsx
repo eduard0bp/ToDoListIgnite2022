@@ -5,7 +5,7 @@ interface HeaderProps {}
 
 export const Header = ({}: HeaderProps) => {
   return (
-    <header>
+    <header className='todo-logo'>
       <img src={toDoLogo} />
     </header>
   )
